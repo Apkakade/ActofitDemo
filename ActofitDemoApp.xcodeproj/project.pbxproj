@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182D123527E5CA3900204B48 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D123427E5CA3900204B48 /* Location.swift */; };
 		18D6743227E4BD8000485219 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6743127E4BD8000485219 /* AppDelegate.swift */; };
 		18D6743427E4BD8000485219 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6743327E4BD8000485219 /* SceneDelegate.swift */; };
 		18D6743627E4BD8000485219 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6743527E4BD8000485219 /* ViewController.swift */; };
 		18D6743927E4BD8000485219 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D6743727E4BD8000485219 /* Main.storyboard */; };
 		18D6743B27E4BD8100485219 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D6743A27E4BD8100485219 /* Assets.xcassets */; };
 		18D6743E27E4BD8100485219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D6743C27E4BD8100485219 /* LaunchScreen.storyboard */; };
+		18D6744627E4C68A00485219 /* Keychain Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6744527E4C68A00485219 /* Keychain Class.swift */; };
+		18D6744F27E4D01100485219 /* SetLocationByMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D6744C27E4D01100485219 /* SetLocationByMapViewController.swift */; };
+		18D6745227E4D49600485219 /* ripple_gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18D6745027E4D49600485219 /* ripple_gif.gif */; };
+		18D6745327E4D49600485219 /* pin_markar.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D6745127E4D49600485219 /* pin_markar.png */; };
+		C0BA0D772999E4AEE89DE281 /* Pods_ActofitDemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8270A676BB66306EAD1CC3A4 /* Pods_ActofitDemoApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182D123427E5CA3900204B48 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		18D6742E27E4BD8000485219 /* ActofitDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActofitDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D6743127E4BD8000485219 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D6743327E4BD8000485219 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,13 @@
 		18D6743A27E4BD8100485219 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18D6743D27E4BD8100485219 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D6743F27E4BD8100485219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D6744527E4C68A00485219 /* Keychain Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Keychain Class.swift"; sourceTree = "<group>"; };
+		18D6744C27E4D01100485219 /* SetLocationByMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetLocationByMapViewController.swift; sourceTree = "<group>"; };
+		18D6745027E4D49600485219 /* ripple_gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ripple_gif.gif; sourceTree = "<group>"; };
+		18D6745127E4D49600485219 /* pin_markar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin_markar.png; sourceTree = "<group>"; };
+		7459EA162E45823415BAF61A /* Pods-ActofitDemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActofitDemoApp.release.xcconfig"; path = "Target Support Files/Pods-ActofitDemoApp/Pods-ActofitDemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		8270A676BB66306EAD1CC3A4 /* Pods_ActofitDemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ActofitDemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53E74A98D57F45DB1F162FE /* Pods-ActofitDemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActofitDemoApp.debug.xcconfig"; path = "Target Support Files/Pods-ActofitDemoApp/Pods-ActofitDemoApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0BA0D772999E4AEE89DE281 /* Pods_ActofitDemoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0139EE723358655AA9E905E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8270A676BB66306EAD1CC3A4 /* Pods_ActofitDemoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		18D6742527E4BD8000485219 = {
 			isa = PBXGroup;
 			children = (
 				18D6743027E4BD8000485219 /* ActofitDemoApp */,
 				18D6742F27E4BD8000485219 /* Products */,
+				A0439D835069C1CFD8AC41B3 /* Pods */,
+				0139EE723358655AA9E905E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +84,34 @@
 				18D6743127E4BD8000485219 /* AppDelegate.swift */,
 				18D6743327E4BD8000485219 /* SceneDelegate.swift */,
 				18D6743527E4BD8000485219 /* ViewController.swift */,
+				18D6744927E4CFF800485219 /* Addess */,
+				18D6744527E4C68A00485219 /* Keychain Class.swift */,
+				182D123427E5CA3900204B48 /* Location.swift */,
 				18D6743727E4BD8000485219 /* Main.storyboard */,
 				18D6743A27E4BD8100485219 /* Assets.xcassets */,
 				18D6743C27E4BD8100485219 /* LaunchScreen.storyboard */,
 				18D6743F27E4BD8100485219 /* Info.plist */,
+				18D6745127E4D49600485219 /* pin_markar.png */,
+				18D6745027E4D49600485219 /* ripple_gif.gif */,
 			);
 			path = ActofitDemoApp;
+			sourceTree = "<group>";
+		};
+		18D6744927E4CFF800485219 /* Addess */ = {
+			isa = PBXGroup;
+			children = (
+				18D6744C27E4D01100485219 /* SetLocationByMapViewController.swift */,
+			);
+			path = Addess;
+			sourceTree = "<group>";
+		};
+		A0439D835069C1CFD8AC41B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B53E74A98D57F45DB1F162FE /* Pods-ActofitDemoApp.debug.xcconfig */,
+				7459EA162E45823415BAF61A /* Pods-ActofitDemoApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D6744227E4BD8100485219 /* Build configuration list for PBXNativeTarget "ActofitDemoApp" */;
 			buildPhases = (
+				804ED237E116F48BB3D89CFE /* [CP] Check Pods Manifest.lock */,
 				18D6742A27E4BD8000485219 /* Sources */,
 				18D6742B27E4BD8000485219 /* Frameworks */,
 				18D6742C27E4BD8000485219 /* Resources */,
+				12DE00D544AF9723DA811FF8 /* [CP] Embed Pods Frameworks */,
+				5FFC7CDD86B8D60F3EDA6325 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,12 +176,73 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D6743E27E4BD8100485219 /* LaunchScreen.storyboard in Resources */,
+				18D6745327E4D49600485219 /* pin_markar.png in Resources */,
 				18D6743B27E4BD8100485219 /* Assets.xcassets in Resources */,
 				18D6743927E4BD8000485219 /* Main.storyboard in Resources */,
+				18D6745227E4D49600485219 /* ripple_gif.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12DE00D544AF9723DA811FF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ActofitDemoApp/Pods-ActofitDemoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ActofitDemoApp/Pods-ActofitDemoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ActofitDemoApp/Pods-ActofitDemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FFC7CDD86B8D60F3EDA6325 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ActofitDemoApp/Pods-ActofitDemoApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ActofitDemoApp/Pods-ActofitDemoApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ActofitDemoApp/Pods-ActofitDemoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		804ED237E116F48BB3D89CFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ActofitDemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18D6742A27E4BD8000485219 /* Sources */ = {
@@ -139,7 +250,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D6743627E4BD8000485219 /* ViewController.swift in Sources */,
+				18D6744627E4C68A00485219 /* Keychain Class.swift in Sources */,
+				18D6744F27E4D01100485219 /* SetLocationByMapViewController.swift in Sources */,
 				18D6743227E4BD8000485219 /* AppDelegate.swift in Sources */,
+				182D123527E5CA3900204B48 /* Location.swift in Sources */,
 				18D6743427E4BD8000485219 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,6 +398,7 @@
 		};
 		18D6744327E4BD8100485219 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B53E74A98D57F45DB1F162FE /* Pods-ActofitDemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,11 +407,17 @@
 				DEVELOPMENT_TEAM = D2W8J6W568;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ActofitDemoApp/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = Safe;
+				INFOPLIST_KEY_NSLocationUsageDescription = Safe;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = Safe;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,12 +427,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		18D6744427E4BD8100485219 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7459EA162E45823415BAF61A /* Pods-ActofitDemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,11 +442,17 @@
 				DEVELOPMENT_TEAM = D2W8J6W568;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ActofitDemoApp/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = Safe;
+				INFOPLIST_KEY_NSLocationUsageDescription = Safe;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = Safe;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +462,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
